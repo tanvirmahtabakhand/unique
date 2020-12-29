@@ -1,0 +1,349 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /*css start*/
+  /*header section start*/
+  .header-section .main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #511de5;
+	background: url("../imge/hover.png") left bottom;
+	background-repeat: no-repeat;
+	background-size: auto;
+  }
+  .header-section .main-menu .navbar-light .navbar-nav .nav-link:hover, .main-header .navbar-light .navbar-nav .nav-link:focus{
+	color: #511de5;
+	background: url("../imge/hover.png") left bottom;
+	background-repeat: no-repeat;
+	background-size: auto;
+  }
+  .header-section .main-menu .navbar-light .btn-link{
+    margin: 0px 4px;
+    text-align: left;
+    display: block;
+  }
+  .header-section .banner-section{
+  	padding: 20px 0px;
+  }
+  .banner-section .inner-banner{
+  	padding: 10px 0px;
+  }
+  .banner-section .inner-banner h1{
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .banner-section .inner-banner h1 span{
+	font-size: 30px;
+   }
+  .banner-section .inner-banner .btn-primary{
+  	font-size: 12px;
+  	padding: 5px 25px;
+  }
+  /*header section end*/
+  /*highlight section start*/
+  .highlight .inner-high img {
+    position: absolute;
+    top: -70px;
+    width: 136px;
+   }
+   .highlight .inner-high h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    line-height: 26px;
+   }
+  /*highlight section end*/
+  /*Features section start*/
+  .Features{
+	width: 100%;
+	padding: 50px 0px;
+   }
+   .Features .inner-featurs{
+   	padding: 20px;
+   }
+  /*Features section end*/
+  /*into-quote section start*/
+  .into-quote{
+  	padding: 35px 0px;
+  }
+  .into-quote .quote-inner{
+  	padding: 18px 30px;
+    margin: 30px 0px;
+  }
+  .into-quote .quote-inner .testimunial-quote{
+  	width: 90%;
+    padding: 25px;
+  }
+  .into-quote .inner-content{
+  	padding: 20px 0px;
+  }
+  .into-quote .inner-content h2{
+  	font-size: 48px;
+  }
+  /*into-quote section end*/
+  /*efficiancy section start*/
+  .efficiancy{
+  	padding: 35px 0px;
+  }
+  .efficiancy h2{
+  	margin-top: 40px;
+  }
+  /*efficiancy section end*/
+  /*effician section start*/
+  .effician{
+  	padding: 55px 0px;
+  }
+  .effician .effician-incard{
+  	width: 100%;
+    padding: 20px 0px;
+    border:none;
+  }
+  /*effician section end*/
+  /*qoute section start*/
+  .qoute {
+    padding: 55px 0px;
+  }
+  .qoute .qoute-title {
+    padding: 0px;
+  }
+  .qoute .clint-box{
+  	padding: 40px 25px;
+  	width: 100%;
+   text-align: center;
+   background: url("../imge/freee.png") center top no-repeat;
+   background-size: cover;
+   border: 1px solid #eee;
+   opacity: .5;
+   transition: 1s;
+  }
+  .qoute .clint-box:hover .clint-head h5{
+	background: -webkit-linear-gradient(4deg, #511de5, #0b8cfb);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	}
+	.qoute .clint-box:hover .clint-info h6{
+		color: #000;
+	}
+	.qoute .clint-box:hover .clint-info p{
+		color: 666;
+	}
+  /*qoute section end*/
+  /*footer section */
+  .inner-faq{
+  	padding: 10px;
+  }
+  .copyright {
+    width: 100%;
+    padding-top: 60px;
+   }
+
+  /*css end*/
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /*css start*/
+  /*header section start*/
+  .header-section .main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #511de5;
+	background: url("../imge/hover.png") left bottom;
+	background-repeat: no-repeat;
+	background-size: auto;
+  }
+  .header-section .main-menu .navbar-light .navbar-nav .nav-link:hover, .main-header .navbar-light .navbar-nav .nav-link:focus{
+	color: #511de5;
+	background: url("../imge/hover.png") left bottom;
+	background-repeat: no-repeat;
+	background-size: auto;
+  }
+  .header-section .main-menu .navbar-light .btn-link{
+    margin: 0px 4px;
+    text-align: left;
+    display: block;
+  }
+  .header-section .banner-section{
+  	padding: 20px 0px;
+  }
+  .banner-section .inner-banner{
+  	padding: 10px 0px;
+  }
+  .banner-section .inner-banner h1{
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .banner-section .inner-banner h1 span{
+	font-size: 30px;
+   }
+  .banner-section .inner-banner .btn-primary{
+  	font-size: 12px;
+  	padding: 5px 25px;
+  }
+  /*header section end*/
+  /*highlight section start*/
+  .highlight .inner-high img {
+    position: absolute;
+    top: -70px;
+    width: 136px;
+   }
+   .highlight .inner-high h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    line-height: 26px;
+   }
+  /*highlight section end*/
+  /*Features section start*/
+  .Features{
+	width: 100%;
+	padding: 50px 0px;
+   }
+   .Features .inner-featurs{
+   	padding: 20px;
+   }
+  /*Features section end*/
+  /*into-quote section start*/
+  .into-quote{
+  	padding: 20px 0px;
+  }
+  .into-quote .quote-inner{
+  	padding: 18px 30px;
+    margin: 30px 0px;
+  }
+  .into-quote .quote-inner .testimunial-quote{
+  	width: 90%;
+    padding: 25px;
+  }
+  .into-quote .inner-content{
+  	padding: 20px 0px;
+  }
+  .into-quote .inner-content h2{
+  	font-size: 48px;
+  }
+  /*into-quote section end*/
+  /*efficiancy section start*/
+  .efficiancy{
+  	padding: 35px 0px;
+  }
+  .efficiancy h2{
+  	margin-top: 40px;
+  }
+  /*efficiancy section end*/
+  /*effician section start*/
+  .effician{
+  	padding: 55px 0px;
+  }
+  .effician .effician-incard{
+  	width: 100%;
+    padding: 20px 0px;
+    border:none;
+  }
+  /*effician section end*/
+   /*qoute section start*/
+  .qoute {
+    padding: 55px 0px;
+  }
+  .qoute .qoute-title {
+    padding: 0px;
+  }
+  .qoute .clint-box{
+  	padding: 40px 25px;
+  	width: 100%;
+   text-align: center;
+   background: url("../imge/freee.png") center top no-repeat;
+   background-size: cover;
+   border: 1px solid #eee;
+   opacity: .5;
+   transition: 1s;
+  }
+  .qoute .clint-box:hover .clint-head h5{
+	background: -webkit-linear-gradient(4deg, #511de5, #0b8cfb);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	}
+	.qoute .clint-box:hover .clint-info h6{
+		color: #000;
+	}
+	.qoute .clint-box:hover .clint-info p{
+		color: 666;
+	}
+  /*qoute section end*/
+  /*footer section */
+  .inner-faq{
+  	padding: 10px;
+  }
+  .copyright {
+    width: 100%;
+    padding-top: 60px;
+   }
+
+  /*css end*/
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /*css start*/
+  /*header section start*/
+  .header-section .main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #511de5;
+	background: url("../imge/hover.png") left bottom;
+	background-repeat: no-repeat;
+	background-size: auto;
+  }
+  .header-section .main-menu .navbar-light .navbar-nav .nav-link:hover, .main-header .navbar-light .navbar-nav .nav-link:focus{
+	color: #511de5;
+	background: url("../imge/hover.png") left bottom;
+	background-repeat: no-repeat;
+	background-size: auto;
+  }
+  .header-section .main-menu .navbar-light .btn-link{
+    margin: 0px 4px;
+    text-align: left;
+    display: block;
+  }
+  .header-section .banner-section{
+  	padding: 40px 0px;
+  }
+  .banner-section .inner-banner{
+  	padding: 20px 0px;
+  }
+  .banner-section .inner-banner h1{
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .banner-section .inner-banner h1 span{
+	font-size: 30px;
+   }
+  .banner-section .inner-banner .btn-primary{
+  	font-size: 14px;
+  	padding: 6px 28px;
+  }
+  /*header section end*/
+  /*highlight section start*/
+  .highlight .inner-high img {
+    position: absolute;
+    top: -70px;
+    width: 136px;
+   }
+   .highlight .inner-high h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    line-height: 26px;
+   }
+  /*highlight section end*/
+  /*css end*/
+  
+}
